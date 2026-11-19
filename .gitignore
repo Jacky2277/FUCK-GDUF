@@ -1,0 +1,48 @@
+# 构建工具链（体积大，不入库）
+toolchain/
+sdk/
+LLVM/
+
+# 构建产物
+build/
+gen/
+classes/
+dex/
+dist/
+*.ipa
+*.apk
+*.app/
+Payload/
+
+# 依赖与缓存
+node_modules/
+npm-cache/
+cherri-main/
+tmp/
+
+# 签名密钥（绝对不要提交）
+*.keystore
+*.jks
+keystore.local
+keystore.properties
+
+# 抓包与登录态
+*.har
+*.mitm
+state.json
+probe/out/
+requests.json
+ygj_cookies.json
+verify_request.txt
+
+# 个人调试脚本
+probe/
+
+# 杂项
+*.log
+.DS_Store
+Thumbs.db
+
+# 工具临时锁文件
+*.lock
+.dsh-ops-*
