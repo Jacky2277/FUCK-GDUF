@@ -32,7 +32,7 @@ scriptable/  Scriptable 单文件脚本（含二维码库）
 
 ### iOS（未签名 IPA）
 
-1. 下载 Releases 里的 `出校码-v15.ipa`。
+1. 下载 Releases 里的 `FUCK-GDUF-ios-v15.ipa`。
 2. 用全能签 / Sideloadly / AltStore 等工具自签并安装（需要 iOS 15 及以上）。
 3. 首次打开会要求粘贴 token（见下文「token 怎么来」）。
 4. 点「生成凭证」，出示二维码；二维码每 60 秒自动刷新。
@@ -40,7 +40,7 @@ scriptable/  Scriptable 单文件脚本（含二维码库）
 
 ### Android（APK）
 
-1. 下载 Releases 里的 `出校码-安卓-v1.6.apk`。
+1. 下载 Releases 里的 `FUCK-GDUF-android-v1.6.apk`。
 2. 允许安装未知来源应用，安装（minSdk 26 / Android 8.0+）。
 3. 首次打开粘贴 token，点「生成凭证」。
 4. 主界面还有「签到考勤」：上课时间进入后点「扫码签到」，调用相机扫老师的二维码。
@@ -50,11 +50,11 @@ scriptable/  Scriptable 单文件脚本（含二维码库）
 ### Scriptable（不想装 IPA 的话）
 
 1. App Store 安装 [Scriptable](https://scriptable.app/)（免费）。
-2. 把 `scriptable/出校码.js` 放到「文件」App 的 `iCloud Drive/Scriptable/` 目录。
-3. 打开 Scriptable，运行 `出校码`，首次粘贴 token。
-4. 想放到桌面：新建快捷指令 → 添加 Scriptable 的 **Run Script**（不是 Run Inline Script）→ 选择 `出校码` → 关闭「运行时显示」→ 添加「快速查看」动作 → 重命名为「出校码」→ 长按「添加到主屏幕」。
+2. 把 `scriptable/gduf-scriptable.js` 放到「文件」App 的 `iCloud Drive/Scriptable/` 目录。
+3. 打开 Scriptable，运行 `gduf-scriptable`，首次粘贴 token。
+4. 想放到桌面：新建快捷指令 → 添加 Scriptable 的 **Run Script**（不是 Run Inline Script）→ 选择 `gduf-scriptable` → 关闭「运行时显示」→ 添加「快速查看」动作 → 重命名为「出校码」→ 长按「添加到主屏幕」。
 
-> Scriptable 版发布的是 v4（`出校码.js`，68,954 B）。v5 的改动没有采用，v4 是实测可用的版本。
+> Scriptable 版发布的是 v4（`gduf-scriptable.js`，68,954 B）。v5 的改动没有采用，v4 是实测可用的版本。
 
 ## token 怎么来
 
